@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A new JS project</title>
+	<style type="text/css">
+		#JS {
+			color: black;
+			background-color: red;
+			border: ridge lightblue 13px;
+			text-decoration:none;
+			text-align: center;
+			font-size: 20px;
+			cursor: pointer;
+			padding: 10px 15px;
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+	<button id="JS" onclick="g()" ondblclick="f()">Double click here!</button>
+
+	<script type="text/javascript">
+		function g() {
+			document.getElementById("JS").innerHTML = "you have to click twice!";
+			document.getElementById("JS").style.display = "block";
+		}
+
+		function f() {
+			window.location.href = "http://www.bing.com";
+		}
+	</script>
+
+
+</body>
+</html>
